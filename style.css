@@ -1,0 +1,388 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar img{
+    mix-blend-mode: multiply;
+    width: 200px;
+}
+#firstmain{
+    background-image: url(images/background1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+#firstmain li a{
+    color: gold;
+    font-size: larger;
+}
+#firstmain li a:hover{
+    color: blue;
+}
+#firstmain #signin{
+    border: 1px solid gold;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+    
+}
+#firstmain #signin:hover{
+    background-color: gold;
+    
+}
+#firstmain #signin:hover #firstmain #signin .nav-link a{
+    color: blue;
+}
+.nav-item .nav-link{
+    padding: 10px 20px;
+    transition: all 0.4s;
+}
+.nav-item .nav-link:hover{
+    background-color: white;
+    border-radius: 4px;
+    
+}
+#firstmain h1,h4{
+    color: white;
+    margin-left: 40px;
+    }
+#firstmain h1{
+    margin-top: 100px;
+}
+#firstmain h4{
+    margin-top: 20px;
+}
+#btn{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 150px;
+    font-size: 1.5em;
+    border-radius: 4px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    transition: all 0.4s;
+}
+#btn a{
+    text-decoration: none;
+    color: white;    
+}
+#btn:hover{
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+
+}
+#spance{
+    margin-left: 300px;
+}
+.navbar-nav{
+    margin-left: 50px;
+}
+#anim{
+    mix-blend-mode: multiply;
+    animation: anim1 4s;
+    position: relative;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes anim1{
+    0%{left: 0px; bottom:0px;}
+    25%{left: 400px;  bottom: 200px;}
+}
+
+@media screen and (max-width : 999px){
+    @keyframes anim1{
+        0%{left: 0px; bottom:0px ;}
+        
+    }
+    #fourthmain .lapi{
+        width: 100%;
+    }
+    #women{
+        width: 100%;
+    }
+    #sixthmain img{
+        width: 100%;
+    }    
+    #setbox .box{
+            margin-top: 20px;
+
+    }
+
+}
+
+/* =====================second==================== */
+
+#secondmain{
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+#secondmain img{
+    width: 400px;
+
+}
+/* ===============thirdmain================= */
+#thirdmain{
+    margin-top: 100px;
+}
+#thirdmain img{
+    width: 400px;
+}
+#thirdmain h2{
+    margin-top: 60px;
+    font-size: 3em;
+}
+#thirdmain p{
+    font-size: larger;
+    margin-top: 20px;
+}
+#btn1{
+    padding: 10px 50px;
+    border-radius: 5px;
+    background: transparent;
+    color: blue;
+    border: 1px solid blue;
+    transition: all 0.4s;
+}
+#btn1 a{
+    color: blue;
+    text-decoration: none;
+}
+#btn1:hover{
+    border: 1px solid blue;
+    outline: none;
+    color: black;
+    background-color: blue;
+}
+#btn1:hover a{
+    color: black;
+}
+/* ==============fourthmain============== */
+
+#fourthmain{
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(238, 231, 231);
+    height: auto;
+}
+#fourthmain h1{
+    padding: 30px 0px;
+    color: orange;
+}
+#fourthmain h2{
+    color: blue;
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+}
+#fourthmain p{
+    font-size: 2em;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+#playstore{
+    width: 400px;
+    padding-top: 30px;
+}
+#appstore{
+    width: 400px;
+    padding-top: 30px;
+}
+#btn2{
+    padding: 10px 20px;
+    width: 200px;
+    margin: 40px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid blue;
+}
+#btn2 a{
+    text-decoration: none;
+}
+#btn2:hover{
+    background-color: blue;
+}
+#btn2:hover a{
+    color: black;
+}
+
+/* =================fifth main==================== */
+
+#fifthmain{
+    margin-top: 50px;
+    height: auto;
+}
+.subfifth{
+    display: flex;
+    justify-content: space-evenly;
+}
+.subfifth i{
+    color: blue;
+    font-size: 2em;
+
+}
+.subfifth p{
+    min-width:  400px;
+}
+
+/* ====================sixth main================ */
+#sixthmain h1{
+text-align: center;
+padding: 20px;
+}
+#sixthmain h1{
+    color: rgb(76, 4, 143);
+}
+#sixthmain p{
+    font-size: 2em;
+    text-align: center;
+}
+#sixthmain p a{
+    text-decoration: none;
+}
+#sixthmain img{
+    width: 300px;
+    margin-top: 40px;
+}
+
+/* ================seventh main================ */
+
+#seventhmain{
+    margin-top: 50px;
+    background: rgb(209, 207, 207);
+    padding-bottom: 50px;
+}
+#seventhmain span #h1,#p{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    padding: 20px;
+   
+}
+#seventhmain span #h1{
+    color: orange;
+}
+#seventhmain span #p{
+    color: blue;
+}
+#seventhmain .box{
+    width: 250px;
+    height: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+#seventhmain .box:hover{
+    -webkit-box-shadow: 0px 7px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 23px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 7px 23px 0px rgba(0,0,0,0.75);;
+}
+#setbox{
+    display: flex;
+    justify-content: space-around;
+}
+#seventhmain .box h1{
+    color: blue;
+}
+
+/* ==================================eigthmain========================= */
+
+#eigthmain{
+    padding: 90px 0px;
+    text-align: center;
+}
+#eigthmain img{
+    padding: 20px 0px;
+}
+#btn3{
+    background: transparent;
+    padding: 20px 40px;
+    margin-top: 40px;
+    border-radius: 40px;
+    border: 1px solid blue;
+    transition: all 0.4s;
+}
+#btn3 a{
+    text-decoration: none;
+    color: blue;
+    font-weight: 500;
+}
+#btn3:hover{
+    background-color: blue;
+}
+#btn3:hover a{
+    color: white;
+}
+
+/* ================footer=================== */
+#footermain{
+    padding: 90px;
+    background-color: rgb(167, 163, 163);
+}
+#footermain ul li{
+    list-style-type: none;
+}
+#footermain ul li button{
+    margin-top: 30px;
+    padding: 20px 40px;
+    background: transparent;
+    border: 2px solid yellow;
+    border-radius: 40px;
+    transition: all 0.4s;
+}
+#footermain ul li button a{
+    text-decoration: none;
+    color: yellow;
+    font-weight: 700;
+}
+#footermain ul li button:hover{
+    background-color: yellow;
+}
+#footermain ul li button:hover a{
+    color: blue;
+}
+#footermain ul li:hover{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 30px;
+    text-align: center;
+}
+.icons i{
+    padding: 20px 30px;
+    font-size: 2em;
+    cursor: pointer;   
+}
+.icons i:hover{
+    -webkit-box-shadow: -1px 2px 20px 0px rgba(250,247,250,1);
+-moz-box-shadow: -1px 2px 20px 0px rgba(250,247,250,1);
+box-shadow: -1px 2px 20px 0px rgba(250,247,250,1);
+}
+/* ============================ */
+
+#btn4{
+    bottom: 20px;
+    width: 40px;
+    border-radius: 40px;
+    right: 20px;
+    cursor: pointer;
+    background: transparent;
+    position: fixed;
+    color: red;
+    height: 30px;
+}
